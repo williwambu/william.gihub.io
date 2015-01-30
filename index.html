@@ -1,48 +1,243 @@
 <!DOCTYPE html>
-<html ng-app="smsApp" ng-controller="smsListCtrl" xmlns="http://www.w3.org/1999/html">
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>SMS App</title>
-    <script src="js/jquery.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/angular-route.min.js"></script>
-    <script src="js/angular-animate.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/moment.min.js"></script>
-    <script src="js/loading-bar.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/loading-bar.min.css">
-    <link href="css/styles.css" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome | William</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  
+  <!-- Responsive Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  
+  <!--Fonts-->
+  <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+
+  <!-- Extras -->
+  <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+              <![endif]-->
 </head>
 <body>
-<!-- nav bar -->
-    <nav role="navigation" class="navbar navbar-default">
-        <div class="navbar-header">
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">SMS App</a>
+	 
+  <!-- Header Section Start -->
+  <div id="header">
+    <div class="container">
+      <div class="col-md-12 top-header">
+        <div class="logo-menu">
+          <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+          </div> 
+          <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
+            <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+              <span>menu</span>
+            </div> 
+          </div> 
         </div>
-        <!-- Collection of nav links and other content for toggling -->
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#/home">Home</a></li>
-                <li><a href="#/inbox">Messages</a></li>
-                <li><a href="#/github">GitHub</a></li>
+        <div class="sidebar-nav">
+          <!-- navigation start -->
+          <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
+            <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+            <ul class="nav navmenu-nav">
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#feedback">Contact Me</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a>Search: <input style="position:relative;" ng-model="query"></a>
-                </li>
-                <li><a href="#">Login</a></li>
-            </ul>
+          </div>
+          <!-- navigation End -->
+        </div>     
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner text-center">
+            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">William Wambua</h1>
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Web and Mobile developer & GEEK -:)</h2>
+           <!-- <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>-->
+            <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
+            <div class="scroll">
+              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
+          </div>
         </div>
-    </nav>
-<!-- ng-view -->
-    <div ng-view></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Section End -->
+
+ 
+  <!-- Skills Section Start -->
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+      <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My<br>Passionate<br> <span>Skills</span></h1>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle one">
+            <div class="count-info">
+              <h3><span class="counter">80%</span></h3>
+              <h4>PHP</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle four">
+            <div class="count-info">
+              <h3><span class="counter">90%</span></h3>
+              <h4>Laravel</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle four">
+            <div class="count-info">
+              <h3><span class="counter">60%</span></h3>
+              <h4>Android</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle two">
+            <div class="count-info">
+              <h3><span class="counter">80%</span></h3>
+              <h4>Javascript</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle three">
+            <div class="count-info">
+              <h3><span class="counter">90%</span></h3>
+              <h4>HTML</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
+        <div class="fact-block">
+          <div class="circle three">
+            <div class="count-info">
+              <h3><span class="counter">90%</span></h3>
+              <h4>CSS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section End -->
+  <!-- Feedback Section Start -->
+  <section id="feedback">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s"><span>Contact Me</h1>
+        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
+          <form action="" name="contact">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" name="name" class="form-control" placeholder="Your name">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+              <input type="email" name="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-fire"></i></span>
+              <input type="text" name="subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-comments"></i></span>
+              <textarea name="message" class="form-control large" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
+          </form>
+        </div>
+        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.4s">
+          <div class="address">
+            <h2>Contact Info</h2>
+            <ul class="contact-info">
+              <li><i class="fa fa-mobile"></i> 0700 203 130</li>
+              <li><i class="fa fa-skype"></i> williwambu.github.io</li>
+              <li><i class="fa fa-envelope-o"></i> willi.wambu@gmail.com</li>
+            </ul>
+          
+          <h2>Follow Me</h2>
+            <ul class="social-icon">
+             <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+              <li><a href="http://twitter.com/muliswillia"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://ke.linkedin.com/in/muliswilliam"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="http://google.com/+WilliamWambua1"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Feedback Section End -->
+
+  <!-- Footer section Start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="copyright wow fadeInUp animated" data-wow-delay=".8s">
+            <p>Copyright &copy; 2014 GrayGrids | All rights reserved.</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+          <div class="scroll-top text-center wow fadeInUp animated" data-wow-delay=".6s">
+            <a href="#header"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <p class="text-center wow fadeInUp animated" data-wow-delay=".8s">Developed By <a href="http://graygrids.com">GrayGrids</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer section End -->
+
+  <!-- jQuery Load -->
+  <script src="assets/js/jquery-min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- WOW JS plugin for animation -->
+  <script src="assets/js/wow.js"></script>
+  <!-- All JS plugin Triggers -->
+  <script src="assets/js/main.js"></script>
+  <!-- Smooth scroll -->
+  <script src="assets/js/smooth-scroll.js"></script>
+  <!--  -->
+  <script src="assets/js/jasny-bootstrap.min.js"></script>
+  <!-- Counterup -->
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <!-- waypoints -->
+  <script src="assets/js/waypoints.min.js"></script>
+  <!-- circle progress -->
+  <script src="assets/js/circle-progress.js"></script>
+  <!-- owl carousel -->
+  <script src="assets/js/owl.carousel.js"></script>
+  <!-- lightbox -->
+  <script src="assets/js/lightbox.min.js"></script>
+
 </body>
 </html>
