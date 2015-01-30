@@ -1,0 +1,17 @@
+<div>
+    <div class="col-md-6 ">
+
+        <h1>Inbox</h1>
+
+        <div ng-repeat="sms in smses|filter:query">
+            <div class="sms-container {{read(sms.read)}}">
+                <label for="mark-as-read">Mark as Read :</label><input id="mark-as-read" type="checkbox" ng-model="sms.read">
+                <h5>To : <span class="to">{{sms.to}}</span></h5>
+                <h5>From : <span class="from"> {{sms.from}} </span></h5>
+                <h5>At: <span class="at">{{sms.received_at|date:"MM/dd/yyyy h:mma"}}</span></h5>
+                <p>{{sms.text}}</p>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,32 @@
+[
+  {
+    "from":"0596954995",
+    "to":"0700203130",
+    "text":"An sms to from someone"
+  },
+  {   "from":"0596954995",
+    "to":"0700203130",
+    "text":"Testing the inbox using angular"
+  },
+  {
+    "from":"059334995",
+    "to":"0700203130",
+    "text":"Hey.I am learnig angular js"
+  },
+  {
+    "from":"05969545675",
+    "to":"0700203130",
+    "text":"This JS MVW framework looks like fun."
+  },
+  {
+    "from":"0596954005",
+    "to":"0700203130",
+    "text":"I hope this will render fine with angular and bootstrap."
+  },
+  {
+    "from":"05963457789",
+    "to":"0700203130",
+    "text":"The last sms.Cool"
+  }
+
+]
