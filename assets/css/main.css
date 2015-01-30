@@ -109,10 +109,17 @@ img {
   z-index: 99999;
   overflow: hidden;
 }
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 #navigation .logo {
   margin: 0 auto;
   padding: 30px;
   width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 #navigation .nav li {
   border: 1px solid transparent;
@@ -137,7 +144,7 @@ img {
 /* Header Section Start */
 #header {
   width: 100%;
-  background: url(../img/backgrounds/banner.jpg);
+  background: url(../img/backgrounds/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -529,6 +536,7 @@ img {
 #feedback {
   background: url(../img/backgrounds/imgfooter.jpg);
   background-size: cover;
+  border-top: 1px solid #ffffff;
 }
 #feedback .section-title {
   color: #ffffff;

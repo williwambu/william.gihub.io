@@ -59,7 +59,6 @@ jQuery(document).ready(function( $ ) {
 
   });
 
-  
 //ScrollTop
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
