@@ -684,5 +684,7 @@ img {
 /* Footer Section End */
 .hide-column{
   background-color: orange;
-
+}
+.fa-github:hover{
+  background-color: #4183C4;
 }
