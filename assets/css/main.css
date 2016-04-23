@@ -85,7 +85,6 @@ img {
 .btn-common:hover {
   color: #82BC00;
   background: #82BC00;
-  border: 1px solid #82BC00;
 }
 .btn-common:hover:after {
   height: 100%;
@@ -687,4 +686,51 @@ img {
 }
 .fa-github:hover{
   background-color: #4183C4;
+}
+
+/* Portfolio Section */
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    border: none;
+    padding:0;
+    border-radius: 0;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.label-default:hover[href]{
+  border-color: white;
+  background-color: white;
+  color: #82BC00;
+}
+
+#portfolio .view{
+  position:absolute;
+  top: 5em;
+  left: 3em;
+}
+
+.thumbnail-headline, .thumbnail-description{
+  color : white;
+}
+
+.thumbnail-headline{
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.thumbnail-description{
+  font-size: 1.3em;
+  font-weight: 300;
 }
