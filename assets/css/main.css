@@ -718,12 +718,16 @@ img {
 
 #portfolio .view{
   position:absolute;
-  top: 5em;
+  top: 7.9em;
   left: 3em;
 }
 
 .thumbnail-headline, .thumbnail-description{
   color : white;
+}
+
+.project, .project-image{
+    height: 19em !important;
 }
 
 .thumbnail-headline{
