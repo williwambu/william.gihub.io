@@ -22,27 +22,36 @@ wow.init();
 
 jQuery(document).ready(function( $ ) {
 
-    $('nav a').click(function () {
-       //Remove active class from currectly active item
-        $('.active').removeClass('active');
+      $('nav a').click(function () {
+        //Remove active class from currectly active item
+          $('.active').removeClass('active');
 
-        //Add active class to the clicked item
-        $(this).addClass('active');
+          //Add active class to the clicked item
+          $(this).addClass('active');
 
-        return false;
-    });
+          return false;
+      });
 
-  //Portfolio
-  $("[rel='tooltip']").tooltip();
+      //Portfolio
+      $("[rel='tooltip']").tooltip();
 
-  $('.thumbnail').hover(
-      function(){
-          $(this).find('.caption').slideDown(250); //.fadeIn(250)
-      },
-      function(){
-          $(this).find('.caption').slideUp(250); //.fadeOut(205)
-      }
-  );
+      $('.thumbnail').hover(
+          function(){
+              $(this).find('.caption').slideDown(250); //.fadeIn(250)
+          },
+          function(){
+              $(this).find('.caption').slideUp(250); //.fadeOut(205)
+          }
+      );
+      
+      //Form Submission
+      
+      $('#contact').on('submit', function(e) {
+        $('.submit-success').css('display','block');
+        
+        //reset form
+        $(this).closest('form').find("input[type=text],input[type=email] textarea").val("");
+      });
 
   });
 

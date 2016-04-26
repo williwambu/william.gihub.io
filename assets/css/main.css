@@ -473,3 +473,12 @@ img {
   font-size: 1.3em;
   font-weight: 300;
 }
+
+.submit-success{
+  display: none;
+  color: #82BC00;
+  font-size: 2em;
+  text-align: left;
+  font-weight: 200;
+  
+}
