@@ -7,7 +7,6 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
     <!-- Main Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
@@ -32,170 +31,159 @@
 </head>
 <body>
 
+<!-- Navigation -->
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#header" class="navbar-brand">
+                <img src="https://avatars3.githubusercontent.com/u/5344267?v=3&s=460">
+            </a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#header" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feedback">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End: Navigation -->
 <!-- Header Section Start -->
 <div id="header">
-    <div class="container">
-        <div class="col-md-12 top-header">
-            <div class="logo-menu">
-                <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
-                    <a href="index.html"><img class="logo"
-                                              src="https://avatars3.githubusercontent.com/u/5344267?v=3&s=460"
-                                              alt="logo"></a>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="banner text-center">
+                <h1 class="wow fadeInDown animated" data-wow-delay="1s">Hey, I'm William Muli</h1>
+                <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Software Developer from Nairobi.</h2>
+                <!-- <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>-->
+                <div class="scroll">
+                    <a href="#about" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a>
                 </div>
-                <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
-                    <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
-                        <span>menu</span>
-                    </div>
-                </div>
-            </div>
-            <div class="sidebar-nav">
-                <!-- navigation start -->
-                <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
-                    <a href="index.html"><img class="logo"
-                                              src="https://avatars3.githubusercontent.com/u/5344267?v=3&s=460"
-                                              alt="logo"></a>
-                    <ul class="nav navmenu-nav">
-                        <li class="active"><a href="#header">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#feedback">Contact Me</a></li>
-                        <li class="hide-column"><a href="#">Click outside to Hide</a>
-                            <i class="fa fa-arrow-right fa-2x"></i></li>
-                    </ul>
-                </div>
-                <!-- navigation End -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="banner text-center">
-                    <h1 class="wow fadeInDown animated" data-wow-delay="1s">William Wambua</h1>
-                    <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate Web and Mobile Applications
-                        developer.</h2>
-                    <!-- <a href="#" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">Hire Me</a>-->
-                    <div class="scroll">
-                        <a href="#skills" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn
-                            More</a>
-                    </div>
-                    <div class="scroll">
-                        <a href="#skills"><i class="fa fa-angle-down wow fadeInUp animated"
-                                             data-wow-delay="1.2s"></i></a>
-                    </div>
+                <div class="scroll">
+                    <a href="#skills">
+                        <i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</div>
 <!-- Header Section End -->
 
-
-<!-- Skills Section Start -->
-<section id="skills">
+<! About Section -->
+<section id="about">
     <div class="container">
-        <div class="row">
-            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Passionate <span>Skills</span>
-            </h1>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.8">
-                        <div class="count-info">
-                            <h3><span class="counter">80%</span></h3>
-                            <h4>C#</h4>
+       <div class="row">
+           <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">about me
+               <span class="title-underline"></span>
+           </h1>
+
+           <div class="row clear-row-padding">
+               <div class="col-md-2 col-md-offset-5">
+                   <img src="https://avatars3.githubusercontent.com/u/5344267?v=3&s=460">
+               </div>
+
+           </div>
+
+           <div class="row clear-row-padding">
+               <div class="col-md-5 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                   <p>
+                       Hello, my name is William Muli from Nairobi, Kenya.
+                   </p>
+                   <p>
+                       I am a Software Developer with a bias in web based systems and mobile applications.
+                       I have experience close to 2 years designing and implementing solutions to meet various business
+                       requirements.
+                   </p>
+                   <p>
+                       I am a tech enthusiast passionate about technology and its potential to change the lives of people all over the world.
+                   </p>
+               </div>
+           </div>
+       </div>
+
+        <!-- Skills Section Start -->
+        <section id="skills">
+            <div class="row">
+                <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">SKILLS
+                </h1>
+                <div class="col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="80" style="width: 80%" >
+                            <span class="sr-only">80% </span>
+                            C#
+                        </div>
+                    </div>
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 75%" >
+                            <span class="sr-only">75% </span>
+                            PHP
+                        </div>
+                    </div>
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%" >
+                            <span class="sr-only">60% </span>
+                            Java
+                        </div>
+                    </div>
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%" >
+                            <span class="sr-only">80% </span>
+                            JavaScript
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInRight animated" data-wow-delay="1.4s">
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%" >
+                            <span class="sr-only">80% </span>
+                            CSS
+                        </div>
+                    </div>
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%" >
+                            <span class="sr-only">60% </span>
+                            Android
+                        </div>
+                    </div>
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%" >
+                            <span class="sr-only">80% </span>
+                            Laravel
+                        </div>
+                    </div>
+                    <div class="progress" >
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 65%" >
+                            <span class="sr-only">80% </span>
+                            ASP.NET
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.6">
-                        <div class="count-info">
-                            <h3><span class="counter">60%</span></h3>
-                            <h4>Java</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.8">
-                        <div class="count-info">
-                            <h3><span class="counter">80%</span></h3>
-                            <h4>PHP</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.9">
-                        <div class="count-info">
-                            <h3><span class="counter">90%</span></h3>
-                            <h4>Laravel</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.6">
-                        <div class="count-info">
-                            <h3><span class="counter">60%</span></h3>
-                            <h4>ASP.NET Web Forms & MVC</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.6">
-                        <div class="count-info">
-                            <h3><span class="counter">60%</span></h3>
-                            <h4>Android</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.8">
-                        <div class="count-info">
-                            <h3><span class="counter">80%</span></h3>
-                            <h4>Javascript</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.9">
-                        <div class="count-info">
-                            <h3><span class="counter">90%</span></h3>
-                            <h4>HTML</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 wow fadeInUp animated" data-wow-delay="1.2s">
-                <div class="fact-block">
-                    <div class="circle" data-value="0.9">
-                        <div class="count-info">
-                            <h3><span class="counter">90%</span></h3>
-                            <h4>CSS</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
+        <!-- Skills Section End -->
     </div>
 </section>
-<!-- Skills Section End -->
+
+
 
 <!-- Portfolio Section -->
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">My Portfolio</h1>
-            <div class="col-md-4">
+            <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Portfolio</h1>
+            <div class="col-md-4 wow fadeInLeft animated" data-wow-delay="1.4s">
                 <div class="thumbnail project">
                     <div class="caption">
                         <h4 class="thumbnail-headline">Business Home and Machines</h4>
@@ -211,57 +199,68 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft animated" data-wow-delay="1.5s">
                 <div class="thumbnail project">
                     <div class="caption">
                         <h4 class="thumbnail-headline">Accounting Students Association</h4>
-                        <p class="thumbnail-description">Design and implementation of Accounting Students Association online
+                        <p class="thumbnail-description">Design and implementation of Accounting Students Association
+                            online
                             portal.
                         </p>
                         <p>
-                            <a href="http://asauon.or.ke" class="label label-default btn-common view" title="View">View</a>
+                            <a href="http://asauon.or.ke" class="label label-default btn-common view"
+                               title="View">View</a>
                         </p>
                     </div>
-                    <img src="assets/img/portfolio/asa.png" class="project-image" alt="Accounting Students Association image">
+                    <img src="assets/img/portfolio/asa.png" class="project-image"
+                         alt="Accounting Students Association image">
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft animated" data-wow-delay="1.6s">
                 <div class="thumbnail project">
                     <div class="caption">
                         <h4 class="thumbnail-headline">Finance and Investments Students Association</h4>
-                        <p class="thumbnail-description">Design and implementation of Finance and Investments Students Association online
+                        <p class="thumbnail-description">Design and implementation of Finance and Investments Students
+                            Association online
                             portal.
                         </p>
                         <p>
-                            <a href="http://fisauon.or.ke" class="label label-default btn-common view" title="View">View</a>
+                            <a href="http://fisauon.or.ke" class="label label-default btn-common view"
+                               title="View">View</a>
                         </p>
                     </div>
-                    <img src="assets/img/portfolio/fisa.png" class="project-image" alt="Finance and Investments Students Association image">
+                    <img src="assets/img/portfolio/fisa.png" class="project-image"
+                         alt="Finance and Investments Students Association image">
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInRight animated" data-wow-delay="1.7s">
                 <div class="thumbnail project">
                     <div class="caption">
-                        <h4 class="thumbnail-headline">Cherish That Cakes and Catering Services [Under Construction]</h4>
-                        <p class="thumbnail-description">Design and implementation of Cherish That Cakes and Catering Services website.
+                        <h4 class="thumbnail-headline">Cherish That Cakes and Catering Services [Under
+                            Construction]</h4>
+                        <p class="thumbnail-description">Design and implementation of Cherish That Cakes and Catering
+                            Services website.
                         </p>
                         <p>
-                            <a href="http://fisauon.or.ke" class="label label-default btn-common view" title="View">View</a>
+                            <a href="http://fisauon.or.ke" class="label label-default btn-common view"
+                               title="View">View</a>
                         </p>
                     </div>
-                    <img src="assets/img/portfolio/cherishthat.png" class="project-image" alt=" CherishThat Catering Services image">
+                    <img src="assets/img/portfolio/cherishthat.png" class="project-image"
+                         alt=" CherishThat Catering Services image">
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInLeft animated" data-wow-delay="1.8s">
                 <div class="thumbnail project">
                     <div class="caption">
                         <h4 class="thumbnail-headline">Alternate Limited</h4>
                         <p class="thumbnail-description">Design and implementation of Alternate Limited website.</p>
                         <p>
-                            <a href="http://fisauon.or.ke" class="label label-default btn-common view" title="View">View</a>
+                            <a href="http://fisauon.or.ke" class="label label-default btn-common view"
+                               title="View">View</a>
                         </p>
                     </div>
                     <img src="assets/img/portfolio/altn8.png" class="project-image" alt="Alternate Limited image">
