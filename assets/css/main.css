@@ -264,6 +264,7 @@ img {
 #skills .progress{
   border-radius: 0 !important;
   margin-bottom: 2em;
+  background-color: transparent;
 }
 
 #skills .progress .progress-bar{
