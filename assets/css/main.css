@@ -232,8 +232,17 @@ img {
 #about p{
   color: #ffffff;
   font-weight: 100;
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height:1.5;
+}
+
+#about p a{
+  color: #82bc00;
+  font-weight: 800;
+}
+
+#about p a:hover{
+  text-decoration: none;
 }
 
 #about img{
@@ -257,8 +266,8 @@ img {
 }
 
 #skills .progress .progress-bar{
-  font-size: 0.8em;
-  font-weight: 500;
+  font-size: 1.2em;
+  font-weight: 400;
   text-align: left;
   padding-left: 1em;
 }
