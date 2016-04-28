@@ -227,7 +227,7 @@ img {
 #about{
   background: url("../img/backgrounds/about.jpg");
   background-size:cover;
-
+  text-align: center;
 }
 
 #about p{
