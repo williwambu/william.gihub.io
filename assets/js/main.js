@@ -52,6 +52,11 @@ jQuery(document).ready(function( $ ) {
         //reset form
         $(this).closest('form').find("input[type=text],input[type=email] textarea").val("");
       });
+      
+      //Close the nav menu on click
+      $('.navbar-collapse ul li a').click(function(e) {
+        $('.navbar-collapse').removeClass('in');
+      })
 
   });
 
