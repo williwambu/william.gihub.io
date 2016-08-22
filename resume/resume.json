@@ -1,0 +1,248 @@
+{
+  "basics": {
+    "name": "William Muli",
+    "label": "Software Developer",
+    "picture": "https://avatars3.githubusercontent.com/u/5344267?v=3&s=460",
+    "email": "willi.wambu@gmail.com",
+    "phone": "+254 700203130",
+    "website": "https://williwambu.github.io",
+    "summary": "Hello, my name is William Muli from Nairobi, Kenya.  I am a Software Developer with a bias in web based systems and mobile applications. I have experience close to 2 years designing and implementing solutions to meet various business requirements.  I am a tech enthusiast passionate about technology and its potential to change the lives of people all over the world.",
+    "location": {
+      "address": "30197",
+      "postalCode": "00100",
+      "city": "Nairobi ",
+      "countryCode": "",
+      "region": "Kenya"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "William Muli",
+        "url": "http://ke.linkedin.com/in/muliswilliam"
+      },
+      {
+        "network": "Github",
+        "username": "williwambu",
+        "url": "https://github.com/williwambu/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Alternate Limited",
+      "position": "Web/SharePoint Developer",
+      "website": "http://altn8.co.ke",
+      "startDate": "2015-01-05",
+      "endDate": "2015-06-25",
+      "summary": "Worked on various projects mainly in SharePoint to implement business requirements using the platform.",
+      "highlights": [
+        "Designing and Implementing SharePoint layouts in HTML CSS and JavaScript",
+        "Training users/clients on using SharePoint",
+        "Implementing Document Management Systems using SharePoint",
+        "Installing and Configuring SharePoint servers on Azure and on premise,",
+        "Developing custom SharePoint components in C# and ASP.NET,",
+        "Attending Project meetings and briefs"
+      ]
+    },
+    {
+      "company": "Alternate Limited",
+      "position": "Web Developer - Intern",
+      "website": "http://altn8.co.ke",
+      "startDate": "2014-09-01",
+      "endDate": "2014-12-20",
+      "summary": "I worked at Alternate Limited as an intern in web development with a bias in SharePoint platform.",
+      "highlights": [
+        "Designing and Implementing SharePoint layouts in HTML, CSS and JavaScript",
+        "Training users/clients on using SharePoint.",
+        "Implementing Document Management Systems using SharePoint",
+        "Installing and Configuring SharePoint servers on Azure and on premise"
+      ]
+    },
+    {
+      "company": "Business Home Machines",
+      "position": "Software Developer",
+      "website": "http://bhm.co.ke",
+      "startDate": "2015-07-01",
+      "endDate": "2015-09-01",
+      "summary": "Designed and implemented front end and back end system for Business Home Machines online shop.",
+      "highlights": [
+        "Implementing Server side (Laravel and PHP) and Client Side - HTML, CSS and JavaScript(jQuery) for the site",
+        "Implementing database in MySQL",
+        "Integrated Payment systems for clients using MPESA and Kokopo API"
+      ]
+    },
+    {
+      "company": "Alternate Limited",
+      "position": "SharePoint Developer",
+      "website": "Undisclosed client*",
+      "startDate": "2016-01-20",
+      "endDate": "2016-02-20",
+      "summary": "SharePoint Customization to implement and automate business processes.",
+      "highlights": [
+        "Installing and Configuring SharePoint Farm.",
+        "Branding SharePoint Intranet site in HTML, CSS, ASP.NET and JavaScript",
+        "Developing Document management system in SharePoint",
+        "Implementing Data storage in SharePoint Lists and REST APIs",
+        "Developing Visual Web Parts in ASP.NET and C# for SharePoint sites (Server Side Object Model)",
+        "Design and Implementation of Information Data storage in SharePoint Lists",
+        "Consuming SharePoint REST APIs using Client Object Model"
+      ]
+    },
+    {
+      "company": "Finance and Investments Students Association(FISA)",
+      "position": "Web Developer",
+      "website": "http://fisauon.or.ke",
+      "startDate": "2015-10-01",
+      "endDate": "2015-10-20",
+      "summary": "Design and implementation of FISA web portal",
+      "highlights": [
+        "Implementing site backend in Laravel Framework to expose custom JSON API.",
+        "Angular JS MVC for frontend development",
+        "Used Materialize CSS to implement frontend design",
+        "MySQL for data storage",
+        "Custom event management using PHP/Laravel",
+        "Implemented a blog using WordPress."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Wango Secondary School",
+      "position": "Teacher",
+      "website": "",
+      "startDate": "2011-01-05",
+      "endDate": "2012-09-12",
+      "summary": "Volunteered as a teacher in my alma-mater.",
+      "highlights": [
+        "Teaching Physics and Mathematics",
+        "Preparing students for Science Congress"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Nairobi",
+      "area": "Bachelor of Commerce - Business Information Systems",
+      "studyType": "Bachelor",
+      "startDate": "2012-09-12",
+      "endDate": "2016-04-26",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Wango Secondary School",
+      "area": "Kenya Certficate of Secondary Education",
+      "studyType": "Secondary Education",
+      "startDate": "2007-01-15",
+      "endDate": "2010-12-20",
+      "gpa": "A-",
+      "courses": []
+    },
+    {
+      "institution": "Consolate Karaba Primary School",
+      "area": "Kenya Certficate of Primary Education",
+      "studyType": "Primary Education",
+      "startDate": "1997-01-15",
+      "endDate": "2006-12-15",
+      "gpa": "B+",
+      "courses": []
+    },
+    {
+      "institution": "Emobilis Mobile Academy",
+      "area": "Android Development",
+      "studyType": "Android",
+      "startDate": "2014-05-01",
+      "endDate": "2014-08-31",
+      "gpa": "",
+      "courses": [
+        "Java",
+        "User Interface Design",
+        "User Experience"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": [
+        "C#",
+        "Java",
+        "PHP",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "SQL Server",
+        "MySQl",
+        "MongoDb"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "level": "Master",
+      "keywords": [
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "name": "Others",
+      "level": "Master",
+      "keywords": [
+        "Git Version Control",
+        "Team Foundation Server",
+        "Laravel",
+        "ASP.NET MVC & Web API",
+        "Linux Server"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Swahili",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Coding/Programming",
+      "keywords": [
+        "Programming Concepts"
+      ]
+    },
+    {
+      "name": "Reading",
+      "keywords": [
+        "Creative non-fiction"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Hesbon Kiptoo",
+      "reference": "It is my pleasure to recommend William as a professional Software Developer. His vast knowledge and experience will be valuable to your company."
+    },
+    {
+      "name": "Denis Ngahu",
+      "reference": "It is my pleasure to recommend William. He delivers quality work in time."
+    }
+  ]
+}
