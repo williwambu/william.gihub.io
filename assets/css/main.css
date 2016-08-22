@@ -223,21 +223,25 @@ img {
 }
 /* Header Section End */
 
+/* dark background */
+.dark-bg{
+   background: url("../img/backgrounds/about.jpg");
+    background-size:cover;
+}
+
 /* About */
 #about{
-  background: url("../img/backgrounds/about.jpg");
-  background-size:cover;
   text-align: center;
 }
 
-#about p{
+#about p,#skills p{
   color: #ffffff;
   font-weight: 100;
   font-size: 1.3em;
   line-height:1.5;
 }
 
-#about p a{
+#about p a, #skills p a{
   color: #82bc00;
   font-weight: 800;
 }
